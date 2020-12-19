@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+
+svg{
+    width: 500px;
+}
+#first{
+    animation: first .9s  infinite alternate;
+}
+#Second{
+    animation: first .9s  infinite alternate;
+    animation-delay: .3s;
+}
+#third{
+    animation: first .9s  infinite alternate;
+    animation-delay: .5s;
+    
+}
+@keyframes first{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}
